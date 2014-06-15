@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1279DCD6194D8EF100ED2A8C /* VDEMetroLineTableViewController+DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279DCD5194D8EF100ED2A8C /* VDEMetroLineTableViewController+DataSource.m */; };
+		1279DCD9194DAC7F00ED2A8C /* VDEAdminViewController+ConfigureSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279DCD8194DAC7F00ED2A8C /* VDEAdminViewController+ConfigureSubviews.m */; };
+		1279DCDC194DAC9000ED2A8C /* VDEAdminViewController+DisplaySubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279DCDB194DAC9000ED2A8C /* VDEAdminViewController+DisplaySubviews.m */; };
+		1279DCE0194DACB700ED2A8C /* VDEAdminViewController+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1279DCDF194DACB700ED2A8C /* VDEAdminViewController+Actions.m */; };
+		1286B45F194D75670088F129 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1286B45E194D75670088F129 /* Foundation.framework */; };
+		1286B461194D75670088F129 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1286B460194D75670088F129 /* CoreGraphics.framework */; };
+		1286B463194D75670088F129 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1286B462194D75670088F129 /* UIKit.framework */; };
+		1286B469194D75670088F129 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1286B467194D75670088F129 /* InfoPlist.strings */; };
+		1286B46B194D75670088F129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286B46A194D75670088F129 /* main.m */; };
+		1286B46F194D75670088F129 /* VDEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286B46E194D75670088F129 /* VDEAppDelegate.m */; };
+		1286B471194D75670088F129 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1286B470194D75670088F129 /* Images.xcassets */; };
+		1286B478194D75680088F129 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1286B477194D75680088F129 /* XCTest.framework */; };
+		1286B479194D75680088F129 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1286B45E194D75670088F129 /* Foundation.framework */; };
+		1286B47A194D75680088F129 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1286B462194D75670088F129 /* UIKit.framework */; };
+		1286B482194D75680088F129 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1286B480194D75680088F129 /* InfoPlist.strings */; };
+		1286B484194D75680088F129 /* Vincentd26_metroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286B483194D75680088F129 /* Vincentd26_metroTests.m */; };
+		1286B490194D76800088F129 /* VDETraveller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286B48F194D76800088F129 /* VDETraveller.m */; };
+		1286B493194D775F0088F129 /* VDEStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286B492194D775F0088F129 /* VDEStation.m */; };
+		1286B496194D782C0088F129 /* VDEMetroLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286B495194D782C0088F129 /* VDEMetroLine.m */; };
+		1286B49A194D79F20088F129 /* VDEAdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286B499194D79F20088F129 /* VDEAdminViewController.m */; };
+		1286B49D194D7A450088F129 /* VDEMetroLineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286B49C194D7A450088F129 /* VDEMetroLineTableViewController.m */; };
+		1286B4A4194D7CA20088F129 /* VDEDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1286B4A3194D7CA20088F129 /* VDEDataController.m */; };
+		1286B4C0194D83160088F129 /* back-segmented.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4A6194D83160088F129 /* back-segmented.png */; };
+		1286B4C1194D83160088F129 /* div-segmented.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4A7194D83160088F129 /* div-segmented.png */; };
+		1286B4C2194D83160088F129 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4A8194D83160088F129 /* gear.png */; };
+		1286B4C3194D83160088F129 /* leia.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4A9194D83160088F129 /* leia.png */; };
+		1286B4C4194D83160088F129 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4AA194D83160088F129 /* map.png */; };
+		1286B4C5194D83160088F129 /* planete-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4AB194D83160088F129 /* planete-0.png */; };
+		1286B4C6194D83160088F129 /* planete-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4AC194D83160088F129 /* planete-1.png */; };
+		1286B4C7194D83160088F129 /* planete-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4AD194D83160088F129 /* planete-2.png */; };
+		1286B4C8194D83160088F129 /* planete-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4AE194D83160088F129 /* planete-3.png */; };
+		1286B4C9194D83160088F129 /* planete-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4AF194D83160088F129 /* planete-4.png */; };
+		1286B4CA194D83160088F129 /* planete-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4B0194D83160088F129 /* planete-5.png */; };
+		1286B4CB194D83160088F129 /* planete-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4B1194D83160088F129 /* planete-6.png */; };
+		1286B4CC194D83160088F129 /* planete-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4B2194D83160088F129 /* planete-7.png */; };
+		1286B4CD194D83160088F129 /* planete-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4B3194D83160088F129 /* planete-8.png */; };
+		1286B4CE194D83160088F129 /* planete-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4B4194D83160088F129 /* planete-9.png */; };
+		1286B4CF194D83160088F129 /* planete-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4B5194D83160088F129 /* planete-10.png */; };
+		1286B4D0194D83160088F129 /* planete-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4B6194D83160088F129 /* planete-11.png */; };
+		1286B4D1194D83160088F129 /* planete-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4B7194D83160088F129 /* planete-12.png */; };
+		1286B4D2194D83160088F129 /* planete-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4B8194D83160088F129 /* planete-13.png */; };
+		1286B4D3194D83160088F129 /* planete-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4B9194D83160088F129 /* planete-14.png */; };
+		1286B4D4194D83160088F129 /* planete-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4BA194D83160088F129 /* planete-15.png */; };
+		1286B4D5194D83160088F129 /* planete-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4BB194D83160088F129 /* planete-16.png */; };
+		1286B4D6194D83160088F129 /* planete-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4BC194D83160088F129 /* planete-17.png */; };
+		1286B4D7194D83160088F129 /* planete-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4BD194D83160088F129 /* planete-18.png */; };
+		1286B4D8194D83160088F129 /* planete-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4BE194D83160088F129 /* planete-19.png */; };
+		1286B4D9194D83160088F129 /* vador.png in Resources */ = {isa = PBXBuildFile; fileRef = 1286B4BF194D83160088F129 /* vador.png */; };
+		12F9ED9C194DD2D6004F561D /* VDETableSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9ED9B194DD2D6004F561D /* VDETableSuperViewController.m */; };
+		12F9EDA4194DD747004F561D /* VDEDetailPlanetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F9EDA3194DD747004F561D /* VDEDetailPlanetViewController.m */; };
+		12F9EDA9194DFEA4004F561D /* Alors-je-suis-un-Jedi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12F9EDA8194DFEA4004F561D /* Alors-je-suis-un-Jedi.mp3 */; };
+		12F9EDAC194E0273004F561D /* Vador-Tu-dois-affronter-Vador.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12F9EDAB194E0273004F561D /* Vador-Tu-dois-affronter-Vador.mp3 */; };
+		12F9EDB2194E0509004F561D /* airplane-fly-over-02a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12F9EDB1194E0509004F561D /* airplane-fly-over-02a.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1286B47B194D75680088F129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1286B453194D75670088F129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1286B45A194D75670088F129;
+			remoteInfo = Vincentd26_metro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1279DCD4194D8EF100ED2A8C /* VDEMetroLineTableViewController+DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VDEMetroLineTableViewController+DataSource.h"; sourceTree = "<group>"; };
+		1279DCD5194D8EF100ED2A8C /* VDEMetroLineTableViewController+DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VDEMetroLineTableViewController+DataSource.m"; sourceTree = "<group>"; };
+		1279DCD7194DAC7F00ED2A8C /* VDEAdminViewController+ConfigureSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VDEAdminViewController+ConfigureSubviews.h"; sourceTree = "<group>"; };
+		1279DCD8194DAC7F00ED2A8C /* VDEAdminViewController+ConfigureSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VDEAdminViewController+ConfigureSubviews.m"; sourceTree = "<group>"; };
+		1279DCDA194DAC9000ED2A8C /* VDEAdminViewController+DisplaySubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VDEAdminViewController+DisplaySubviews.h"; sourceTree = "<group>"; };
+		1279DCDB194DAC9000ED2A8C /* VDEAdminViewController+DisplaySubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VDEAdminViewController+DisplaySubviews.m"; sourceTree = "<group>"; };
+		1279DCDE194DACB700ED2A8C /* VDEAdminViewController+Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VDEAdminViewController+Actions.h"; sourceTree = "<group>"; };
+		1279DCDF194DACB700ED2A8C /* VDEAdminViewController+Actions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VDEAdminViewController+Actions.m"; sourceTree = "<group>"; };
+		1286B45B194D75670088F129 /* Vincentd26_metro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vincentd26_metro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1286B45E194D75670088F129 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1286B460194D75670088F129 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1286B462194D75670088F129 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1286B466194D75670088F129 /* Vincentd26_metro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vincentd26_metro-Info.plist"; sourceTree = "<group>"; };
+		1286B468194D75670088F129 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1286B46A194D75670088F129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1286B46C194D75670088F129 /* Vincentd26_metro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vincentd26_metro-Prefix.pch"; sourceTree = "<group>"; };
+		1286B46D194D75670088F129 /* VDEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDEAppDelegate.h; sourceTree = "<group>"; };
+		1286B46E194D75670088F129 /* VDEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDEAppDelegate.m; sourceTree = "<group>"; };
+		1286B470194D75670088F129 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1286B476194D75680088F129 /* Vincentd26_metroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vincentd26_metroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1286B477194D75680088F129 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1286B47F194D75680088F129 /* Vincentd26_metroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vincentd26_metroTests-Info.plist"; sourceTree = "<group>"; };
+		1286B481194D75680088F129 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1286B483194D75680088F129 /* Vincentd26_metroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vincentd26_metroTests.m; sourceTree = "<group>"; };
+		1286B48E194D76800088F129 /* VDETraveller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDETraveller.h; sourceTree = "<group>"; };
+		1286B48F194D76800088F129 /* VDETraveller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDETraveller.m; sourceTree = "<group>"; };
+		1286B491194D775F0088F129 /* VDEStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDEStation.h; sourceTree = "<group>"; };
+		1286B492194D775F0088F129 /* VDEStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDEStation.m; sourceTree = "<group>"; };
+		1286B494194D782C0088F129 /* VDEMetroLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDEMetroLine.h; sourceTree = "<group>"; };
+		1286B495194D782C0088F129 /* VDEMetroLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDEMetroLine.m; sourceTree = "<group>"; };
+		1286B498194D79F20088F129 /* VDEAdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDEAdminViewController.h; sourceTree = "<group>"; };
+		1286B499194D79F20088F129 /* VDEAdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDEAdminViewController.m; sourceTree = "<group>"; };
+		1286B49B194D7A450088F129 /* VDEMetroLineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDEMetroLineTableViewController.h; sourceTree = "<group>"; };
+		1286B49C194D7A450088F129 /* VDEMetroLineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDEMetroLineTableViewController.m; sourceTree = "<group>"; };
+		1286B4A2194D7CA20088F129 /* VDEDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDEDataController.h; sourceTree = "<group>"; };
+		1286B4A3194D7CA20088F129 /* VDEDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDEDataController.m; sourceTree = "<group>"; };
+		1286B4A6194D83160088F129 /* back-segmented.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-segmented.png"; path = "../../../../../../../../Downloads/chatelet-elements/back-segmented.png"; sourceTree = "<group>"; };
+		1286B4A7194D83160088F129 /* div-segmented.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "div-segmented.png"; path = "../../../../../../../../Downloads/chatelet-elements/div-segmented.png"; sourceTree = "<group>"; };
+		1286B4A8194D83160088F129 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = "../../../../../../../../Downloads/chatelet-elements/gear.png"; sourceTree = "<group>"; };
+		1286B4A9194D83160088F129 /* leia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leia.png; path = "../../../../../../../../Downloads/chatelet-elements/leia.png"; sourceTree = "<group>"; };
+		1286B4AA194D83160088F129 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = "../../../../../../../../Downloads/chatelet-elements/map.png"; sourceTree = "<group>"; };
+		1286B4AB194D83160088F129 /* planete-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-0.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-0.png"; sourceTree = "<group>"; };
+		1286B4AC194D83160088F129 /* planete-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-1.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-1.png"; sourceTree = "<group>"; };
+		1286B4AD194D83160088F129 /* planete-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-2.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-2.png"; sourceTree = "<group>"; };
+		1286B4AE194D83160088F129 /* planete-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-3.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-3.png"; sourceTree = "<group>"; };
+		1286B4AF194D83160088F129 /* planete-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-4.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-4.png"; sourceTree = "<group>"; };
+		1286B4B0194D83160088F129 /* planete-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-5.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-5.png"; sourceTree = "<group>"; };
+		1286B4B1194D83160088F129 /* planete-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-6.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-6.png"; sourceTree = "<group>"; };
+		1286B4B2194D83160088F129 /* planete-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-7.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-7.png"; sourceTree = "<group>"; };
+		1286B4B3194D83160088F129 /* planete-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-8.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-8.png"; sourceTree = "<group>"; };
+		1286B4B4194D83160088F129 /* planete-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-9.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-9.png"; sourceTree = "<group>"; };
+		1286B4B5194D83160088F129 /* planete-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-10.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-10.png"; sourceTree = "<group>"; };
+		1286B4B6194D83160088F129 /* planete-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-11.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-11.png"; sourceTree = "<group>"; };
+		1286B4B7194D83160088F129 /* planete-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-12.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-12.png"; sourceTree = "<group>"; };
+		1286B4B8194D83160088F129 /* planete-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-13.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-13.png"; sourceTree = "<group>"; };
+		1286B4B9194D83160088F129 /* planete-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-14.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-14.png"; sourceTree = "<group>"; };
+		1286B4BA194D83160088F129 /* planete-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-15.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-15.png"; sourceTree = "<group>"; };
+		1286B4BB194D83160088F129 /* planete-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-16.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-16.png"; sourceTree = "<group>"; };
+		1286B4BC194D83160088F129 /* planete-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-17.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-17.png"; sourceTree = "<group>"; };
+		1286B4BD194D83160088F129 /* planete-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-18.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-18.png"; sourceTree = "<group>"; };
+		1286B4BE194D83160088F129 /* planete-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "planete-19.png"; path = "../../../../../../../../Downloads/chatelet-elements/planete-19.png"; sourceTree = "<group>"; };
+		1286B4BF194D83160088F129 /* vador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vador.png; path = "../../../../../../../../Downloads/chatelet-elements/vador.png"; sourceTree = "<group>"; };
+		12F9ED9A194DD2D6004F561D /* VDETableSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDETableSuperViewController.h; sourceTree = "<group>"; };
+		12F9ED9B194DD2D6004F561D /* VDETableSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDETableSuperViewController.m; sourceTree = "<group>"; };
+		12F9EDA2194DD747004F561D /* VDEDetailPlanetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDEDetailPlanetViewController.h; sourceTree = "<group>"; };
+		12F9EDA3194DD747004F561D /* VDEDetailPlanetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDEDetailPlanetViewController.m; sourceTree = "<group>"; };
+		12F9EDA8194DFEA4004F561D /* Alors-je-suis-un-Jedi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alors-je-suis-un-Jedi.mp3"; sourceTree = "<group>"; };
+		12F9EDAB194E0273004F561D /* Vador-Tu-dois-affronter-Vador.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Vador-Tu-dois-affronter-Vador.mp3"; path = "Vincentd26_metro/Vador-Tu-dois-affronter-Vador.mp3"; sourceTree = "<group>"; };
+		12F9EDB1194E0509004F561D /* airplane-fly-over-02a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "airplane-fly-over-02a.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1286B458194D75670088F129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1286B461194D75670088F129 /* CoreGraphics.framework in Frameworks */,
+				1286B463194D75670088F129 /* UIKit.framework in Frameworks */,
+				1286B45F194D75670088F129 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1286B473194D75680088F129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1286B478194D75680088F129 /* XCTest.framework in Frameworks */,
+				1286B47A194D75680088F129 /* UIKit.framework in Frameworks */,
+				1286B479194D75680088F129 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1279DCDD194DAC9600ED2A8C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1279DCD7194DAC7F00ED2A8C /* VDEAdminViewController+ConfigureSubviews.h */,
+				1279DCD8194DAC7F00ED2A8C /* VDEAdminViewController+ConfigureSubviews.m */,
+				1279DCDA194DAC9000ED2A8C /* VDEAdminViewController+DisplaySubviews.h */,
+				1279DCDB194DAC9000ED2A8C /* VDEAdminViewController+DisplaySubviews.m */,
+				1279DCDE194DACB700ED2A8C /* VDEAdminViewController+Actions.h */,
+				1279DCDF194DACB700ED2A8C /* VDEAdminViewController+Actions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		1286B452194D75670088F129 = {
+			isa = PBXGroup;
+			children = (
+				1286B464194D75670088F129 /* Vincentd26_metro */,
+				1286B47D194D75680088F129 /* Vincentd26_metroTests */,
+				1286B45D194D75670088F129 /* Frameworks */,
+				1286B45C194D75670088F129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1286B45C194D75670088F129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1286B45B194D75670088F129 /* Vincentd26_metro.app */,
+				1286B476194D75680088F129 /* Vincentd26_metroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1286B45D194D75670088F129 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1286B45E194D75670088F129 /* Foundation.framework */,
+				1286B460194D75670088F129 /* CoreGraphics.framework */,
+				1286B462194D75670088F129 /* UIKit.framework */,
+				1286B477194D75680088F129 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1286B464194D75670088F129 /* Vincentd26_metro */ = {
+			isa = PBXGroup;
+			children = (
+				1286B46D194D75670088F129 /* VDEAppDelegate.h */,
+				1286B46E194D75670088F129 /* VDEAppDelegate.m */,
+				1286B48D194D765C0088F129 /* Model */,
+				1286B497194D79A90088F129 /* View Controller */,
+				1286B4A1194D7C480088F129 /* Data Controller */,
+				1286B470194D75670088F129 /* Images.xcassets */,
+				1286B4A5194D82F10088F129 /* images */,
+				12F9EDAA194DFEB3004F561D /* Sounds */,
+				1286B465194D75670088F129 /* Supporting Files */,
+			);
+			path = Vincentd26_metro;
+			sourceTree = "<group>";
+		};
+		1286B465194D75670088F129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1286B466194D75670088F129 /* Vincentd26_metro-Info.plist */,
+				1286B467194D75670088F129 /* InfoPlist.strings */,
+				1286B46A194D75670088F129 /* main.m */,
+				1286B46C194D75670088F129 /* Vincentd26_metro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1286B47D194D75680088F129 /* Vincentd26_metroTests */ = {
+			isa = PBXGroup;
+			children = (
+				1286B483194D75680088F129 /* Vincentd26_metroTests.m */,
+				1286B47E194D75680088F129 /* Supporting Files */,
+			);
+			path = Vincentd26_metroTests;
+			sourceTree = "<group>";
+		};
+		1286B47E194D75680088F129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1286B47F194D75680088F129 /* Vincentd26_metroTests-Info.plist */,
+				1286B480194D75680088F129 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1286B48D194D765C0088F129 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1286B4A0194D7C400088F129 /* objects */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1286B497194D79A90088F129 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12F9ED9D194DD6C8004F561D /* Planet details */,
+				1286B49E194D7A640088F129 /* Admin */,
+				1286B49F194D7A770088F129 /* Table */,
+				12F9ED99194DD291004F561D /* Table superView */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		1286B49E194D7A640088F129 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				1286B498194D79F20088F129 /* VDEAdminViewController.h */,
+				1286B499194D79F20088F129 /* VDEAdminViewController.m */,
+				1279DCDD194DAC9600ED2A8C /* Categories */,
+			);
+			name = Admin;
+			sourceTree = "<group>";
+		};
+		1286B49F194D7A770088F129 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				1286B49B194D7A450088F129 /* VDEMetroLineTableViewController.h */,
+				1286B49C194D7A450088F129 /* VDEMetroLineTableViewController.m */,
+				1286B4DD194D8E8E0088F129 /* Categories */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
+		1286B4A0194D7C400088F129 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				1286B48E194D76800088F129 /* VDETraveller.h */,
+				1286B48F194D76800088F129 /* VDETraveller.m */,
+				1286B491194D775F0088F129 /* VDEStation.h */,
+				1286B492194D775F0088F129 /* VDEStation.m */,
+				1286B494194D782C0088F129 /* VDEMetroLine.h */,
+				1286B495194D782C0088F129 /* VDEMetroLine.m */,
+			);
+			name = objects;
+			sourceTree = "<group>";
+		};
+		1286B4A1194D7C480088F129 /* Data Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1286B4A2194D7CA20088F129 /* VDEDataController.h */,
+				1286B4A3194D7CA20088F129 /* VDEDataController.m */,
+			);
+			name = "Data Controller";
+			sourceTree = "<group>";
+		};
+		1286B4A5194D82F10088F129 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1286B4A6194D83160088F129 /* back-segmented.png */,
+				1286B4A7194D83160088F129 /* div-segmented.png */,
+				1286B4A8194D83160088F129 /* gear.png */,
+				1286B4A9194D83160088F129 /* leia.png */,
+				1286B4AA194D83160088F129 /* map.png */,
+				1286B4AB194D83160088F129 /* planete-0.png */,
+				1286B4AC194D83160088F129 /* planete-1.png */,
+				1286B4AD194D83160088F129 /* planete-2.png */,
+				1286B4AE194D83160088F129 /* planete-3.png */,
+				1286B4AF194D83160088F129 /* planete-4.png */,
+				1286B4B0194D83160088F129 /* planete-5.png */,
+				1286B4B1194D83160088F129 /* planete-6.png */,
+				1286B4B2194D83160088F129 /* planete-7.png */,
+				1286B4B3194D83160088F129 /* planete-8.png */,
+				1286B4B4194D83160088F129 /* planete-9.png */,
+				1286B4B5194D83160088F129 /* planete-10.png */,
+				1286B4B6194D83160088F129 /* planete-11.png */,
+				1286B4B7194D83160088F129 /* planete-12.png */,
+				1286B4B8194D83160088F129 /* planete-13.png */,
+				1286B4B9194D83160088F129 /* planete-14.png */,
+				1286B4BA194D83160088F129 /* planete-15.png */,
+				1286B4BB194D83160088F129 /* planete-16.png */,
+				1286B4BC194D83160088F129 /* planete-17.png */,
+				1286B4BD194D83160088F129 /* planete-18.png */,
+				1286B4BE194D83160088F129 /* planete-19.png */,
+				1286B4BF194D83160088F129 /* vador.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		1286B4DD194D8E8E0088F129 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1279DCD4194D8EF100ED2A8C /* VDEMetroLineTableViewController+DataSource.h */,
+				1279DCD5194D8EF100ED2A8C /* VDEMetroLineTableViewController+DataSource.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		12F9ED99194DD291004F561D /* Table superView */ = {
+			isa = PBXGroup;
+			children = (
+				12F9ED9A194DD2D6004F561D /* VDETableSuperViewController.h */,
+				12F9ED9B194DD2D6004F561D /* VDETableSuperViewController.m */,
+			);
+			name = "Table superView";
+			sourceTree = "<group>";
+		};
+		12F9ED9D194DD6C8004F561D /* Planet details */ = {
+			isa = PBXGroup;
+			children = (
+				12F9EDA5194DD8F6004F561D /* Controller */,
+			);
+			name = "Planet details";
+			sourceTree = "<group>";
+		};
+		12F9EDA5194DD8F6004F561D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12F9EDA2194DD747004F561D /* VDEDetailPlanetViewController.h */,
+				12F9EDA3194DD747004F561D /* VDEDetailPlanetViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		12F9EDAA194DFEB3004F561D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				12F9EDB1194E0509004F561D /* airplane-fly-over-02a.mp3 */,
+				12F9EDAB194E0273004F561D /* Vador-Tu-dois-affronter-Vador.mp3 */,
+				12F9EDA8194DFEA4004F561D /* Alors-je-suis-un-Jedi.mp3 */,
+			);
+			name = Sounds;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1286B45A194D75670088F129 /* Vincentd26_metro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1286B487194D75680088F129 /* Build configuration list for PBXNativeTarget "Vincentd26_metro" */;
+			buildPhases = (
+				1286B457194D75670088F129 /* Sources */,
+				1286B458194D75670088F129 /* Frameworks */,
+				1286B459194D75670088F129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vincentd26_metro;
+			productName = Vincentd26_metro;
+			productReference = 1286B45B194D75670088F129 /* Vincentd26_metro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1286B475194D75680088F129 /* Vincentd26_metroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1286B48A194D75680088F129 /* Build configuration list for PBXNativeTarget "Vincentd26_metroTests" */;
+			buildPhases = (
+				1286B472194D75680088F129 /* Sources */,
+				1286B473194D75680088F129 /* Frameworks */,
+				1286B474194D75680088F129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1286B47C194D75680088F129 /* PBXTargetDependency */,
+			);
+			name = Vincentd26_metroTests;
+			productName = Vincentd26_metroTests;
+			productReference = 1286B476194D75680088F129 /* Vincentd26_metroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1286B453194D75670088F129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VDE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Utilisation;
+				TargetAttributes = {
+					1286B475194D75680088F129 = {
+						TestTargetID = 1286B45A194D75670088F129;
+					};
+				};
+			};
+			buildConfigurationList = 1286B456194D75670088F129 /* Build configuration list for PBXProject "Vincentd26_metro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1286B452194D75670088F129;
+			productRefGroup = 1286B45C194D75670088F129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1286B45A194D75670088F129 /* Vincentd26_metro */,
+				1286B475194D75680088F129 /* Vincentd26_metroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1286B459194D75670088F129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1286B4C6194D83160088F129 /* planete-1.png in Resources */,
+				1286B4C1194D83160088F129 /* div-segmented.png in Resources */,
+				12F9EDAC194E0273004F561D /* Vador-Tu-dois-affronter-Vador.mp3 in Resources */,
+				1286B4C2194D83160088F129 /* gear.png in Resources */,
+				12F9EDB2194E0509004F561D /* airplane-fly-over-02a.mp3 in Resources */,
+				1286B4CC194D83160088F129 /* planete-7.png in Resources */,
+				1286B4CF194D83160088F129 /* planete-10.png in Resources */,
+				1286B4C3194D83160088F129 /* leia.png in Resources */,
+				1286B4D6194D83160088F129 /* planete-17.png in Resources */,
+				12F9EDA9194DFEA4004F561D /* Alors-je-suis-un-Jedi.mp3 in Resources */,
+				1286B4D3194D83160088F129 /* planete-14.png in Resources */,
+				1286B4D1194D83160088F129 /* planete-12.png in Resources */,
+				1286B4D4194D83160088F129 /* planete-15.png in Resources */,
+				1286B4D2194D83160088F129 /* planete-13.png in Resources */,
+				1286B469194D75670088F129 /* InfoPlist.strings in Resources */,
+				1286B4C4194D83160088F129 /* map.png in Resources */,
+				1286B4D0194D83160088F129 /* planete-11.png in Resources */,
+				1286B4CB194D83160088F129 /* planete-6.png in Resources */,
+				1286B4C9194D83160088F129 /* planete-4.png in Resources */,
+				1286B4D9194D83160088F129 /* vador.png in Resources */,
+				1286B4D7194D83160088F129 /* planete-18.png in Resources */,
+				1286B4CA194D83160088F129 /* planete-5.png in Resources */,
+				1286B471194D75670088F129 /* Images.xcassets in Resources */,
+				1286B4C5194D83160088F129 /* planete-0.png in Resources */,
+				1286B4C7194D83160088F129 /* planete-2.png in Resources */,
+				1286B4C0194D83160088F129 /* back-segmented.png in Resources */,
+				1286B4D8194D83160088F129 /* planete-19.png in Resources */,
+				1286B4CE194D83160088F129 /* planete-9.png in Resources */,
+				1286B4CD194D83160088F129 /* planete-8.png in Resources */,
+				1286B4D5194D83160088F129 /* planete-16.png in Resources */,
+				1286B4C8194D83160088F129 /* planete-3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1286B474194D75680088F129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1286B482194D75680088F129 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1286B457194D75670088F129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1286B493194D775F0088F129 /* VDEStation.m in Sources */,
+				1286B496194D782C0088F129 /* VDEMetroLine.m in Sources */,
+				12F9EDA4194DD747004F561D /* VDEDetailPlanetViewController.m in Sources */,
+				1286B46F194D75670088F129 /* VDEAppDelegate.m in Sources */,
+				1286B4A4194D7CA20088F129 /* VDEDataController.m in Sources */,
+				1286B490194D76800088F129 /* VDETraveller.m in Sources */,
+				1279DCD9194DAC7F00ED2A8C /* VDEAdminViewController+ConfigureSubviews.m in Sources */,
+				1279DCDC194DAC9000ED2A8C /* VDEAdminViewController+DisplaySubviews.m in Sources */,
+				12F9ED9C194DD2D6004F561D /* VDETableSuperViewController.m in Sources */,
+				1286B49A194D79F20088F129 /* VDEAdminViewController.m in Sources */,
+				1279DCE0194DACB700ED2A8C /* VDEAdminViewController+Actions.m in Sources */,
+				1279DCD6194D8EF100ED2A8C /* VDEMetroLineTableViewController+DataSource.m in Sources */,
+				1286B46B194D75670088F129 /* main.m in Sources */,
+				1286B49D194D7A450088F129 /* VDEMetroLineTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1286B472194D75680088F129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1286B484194D75680088F129 /* Vincentd26_metroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1286B47C194D75680088F129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1286B45A194D75670088F129 /* Vincentd26_metro */;
+			targetProxy = 1286B47B194D75680088F129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1286B467194D75670088F129 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1286B468194D75670088F129 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1286B480194D75680088F129 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1286B481194D75680088F129 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1286B485194D75680088F129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1286B486194D75680088F129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1286B488194D75680088F129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vincentd26_metro/Vincentd26_metro-Prefix.pch";
+				INFOPLIST_FILE = "Vincentd26_metro/Vincentd26_metro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1286B489194D75680088F129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vincentd26_metro/Vincentd26_metro-Prefix.pch";
+				INFOPLIST_FILE = "Vincentd26_metro/Vincentd26_metro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1286B48B194D75680088F129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vincentd26_metro.app/Vincentd26_metro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vincentd26_metro/Vincentd26_metro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vincentd26_metroTests/Vincentd26_metroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1286B48C194D75680088F129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vincentd26_metro.app/Vincentd26_metro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vincentd26_metro/Vincentd26_metro-Prefix.pch";
+				INFOPLIST_FILE = "Vincentd26_metroTests/Vincentd26_metroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1286B456194D75670088F129 /* Build configuration list for PBXProject "Vincentd26_metro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1286B485194D75680088F129 /* Debug */,
+				1286B486194D75680088F129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1286B487194D75680088F129 /* Build configuration list for PBXNativeTarget "Vincentd26_metro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1286B488194D75680088F129 /* Debug */,
+				1286B489194D75680088F129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1286B48A194D75680088F129 /* Build configuration list for PBXNativeTarget "Vincentd26_metroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1286B48B194D75680088F129 /* Debug */,
+				1286B48C194D75680088F129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1286B453194D75670088F129 /* Project object */;
+}
